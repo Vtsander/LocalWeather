@@ -1,11 +1,11 @@
-Local Weather Application
+#Local Weather Application
 
-Description:
+##Description:
 
     An application made for daily use to stay current on the weather. Uses Javascript, Bootstrap, and JQuery.
 
 
-Uses:
+##Uses:
 
     Assists in helping seeing what the current weather is for the day/week
     The application will show the current week for the weather.
@@ -15,4 +15,4 @@ Screenshot of Page
 
 Image
 
-Link: 
+##Link: 
