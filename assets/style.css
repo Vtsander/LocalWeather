@@ -1,4 +1,4 @@
-h1 {
+h1, h2 {
     color: whitesmoke;
     text-shadow: 4px 5px var(--bs-gray-dark);
     background: rgb(2,0,36);
@@ -7,5 +7,17 @@ h1 {
     font-weight: 800;
     font-style: italic;
     font-family: fantasy;
-    
+    text-align: center;
   }
+
+h4 {
+  color: white;
+  text-shadow: 4px 5px var(--bs-gray-dark);
+  background: linear-gradient(rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+.bg-primary {
+  background-color: rgb(64, 90, 90)!important;
+}
+.bg-secondary {
+  background-color:rgb(64, 90, 90)!important;
+}

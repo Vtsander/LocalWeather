@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="./style.css"/>
     <title>☀️Local Weather☀️</title>
 </head>
@@ -11,19 +13,49 @@
     <header>
         <h1>Local Weather Tracker</h1>
     </header>
-    <div id="row" class="container">
-        <div class="row1">
-            <div class="col-lg-6">...</div>
-            <div class="col-lg-6">...</div>
+    <div id="row1" class="row">
+
+        <div id="search-div" class="bg-secondary col-3 px-2">
+
+            <h4 class="mt-2 mb-4 col-12">Search for a city: </h4>
+
+            <div class="input-group mb-3">
+                <input id="search-input" type="text" class="form-control" placeholder="city name" aria-label="city name"
+                    aria-describedby="basic-addon2">
+                <div class="input-group-append">
+                    <button type="submit" class="input-group-text" id="search-submit">search</button>
+                </div>
+            </div>
+
+            <ul id="city-list" class="list-group col-11 mx-auto p-0 mt-4">
+            </ul>
+
         </div>
-        <div class="row2">
-            <div class="col">!!!</div>
-            <div class="col">!!!</div>
-            <div class="col">!!!</div>
-            <div class="col">!!!</div>
-            <div class="col">!!!</div>
+
+        <div class="col">
+
+            <div id="weather-div" class="row bg-secondary my-3 mx-2">
+
+                <h1 class="py-2 px-4 col-12"><span id="display-name">Sacramento</span> (<span
+                        id="display-date">10/25/2022</span>)</h1>
+
+                <h5 class="col-12">Temperature: <span id="display-temp">75</span> F</h5>
+                <h5 class="col-12">Humidity: <span id="display-hum">15</span>%</h5>
+                <h5 class="col-12">Wind Speed: <span id="display-wind">2.5</span> MPH</h5>
+                <h5 class="col-12">UV Index: <span id="display-uv">5</span></h5>
+
+            </div>
+
+            <div id="forecast" class="row m-2">
+
+                <h2 class="col-12">5-Day Forecast: </h2>
+
+            </div>
+
         </div>
+
     </div>
+
 
     </div>
     <script src="https://code.jquery.com/jquery-3.4.1.js"
