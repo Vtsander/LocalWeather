@@ -13,6 +13,6 @@
 
 Screenshot of Page
 
-Image
+<img src="./assets/images/weather.PNG>
 
-##Link: 
+##Link: https://vtsander.github.io/localweather/
